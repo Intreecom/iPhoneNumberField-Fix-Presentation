@@ -176,7 +176,7 @@ public struct iPhoneNumberField: UIViewRepresentable {
             uiView.withFlag = showFlag
             uiView.withDefaultPickerUI = selectableFlag
             uiView.withPrefix = previewPrefix
-            uiView.partialFormatter.defaultRegion = defaultRegion ?? PhoneNumberKit.defaultRegionCode()
+            uiView.partialFormatter.defaultRegion = defaultRegion ?? PhoneNumberUtility.defaultRegionCode()
             if placeholder != nil {
                 uiView.placeholder = placeholder
             } else {
