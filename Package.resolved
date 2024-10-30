@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "PhoneNumberKit",
-        "repositoryURL": "https://github.com/marmelroy/PhoneNumberKit",
+        "repositoryURL": "https://github.com/Intreecom/PhoneNumberKit-Fix-Presentation",
         "state": {
-          "branch": null,
-          "revision": "b2c695c9aedc70edd8494e3ed0902a0817e57e41",
-          "version": "3.5.3"
+          "branch": "master",
+          "revision": "4fb34b60130f7a061866d8b48058d3ff920e8adf",
+          "version": null
         }
       }
     ]
