@@ -5,8 +5,8 @@
         "package": "PhoneNumberKit",
         "repositoryURL": "https://github.com/Intreecom/PhoneNumberKit-Fix-Presentation",
         "state": {
-          "branch": "master",
-          "revision": "4fb34b60130f7a061866d8b48058d3ff920e8adf",
+          "branch": "handle-country-code-selection",
+          "revision": "e4de74e750a4d413ce877338bc33b31f1d977da8",
           "version": null
         }
       }
