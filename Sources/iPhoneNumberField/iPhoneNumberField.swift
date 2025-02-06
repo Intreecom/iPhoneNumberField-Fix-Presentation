@@ -322,5 +322,12 @@ public struct iPhoneNumberField: UIViewRepresentable {
             }
             return true
         }
+
+        public func textFieldDidChangeSelection(_ textField: UITextField) {
+            if let textField = textField as? PhoneNumberTextField {
+                onEditingChange(textField)
+                onPhoneNumberChange(textField.phoneNumber)
+            }
+        }
     }
 }
