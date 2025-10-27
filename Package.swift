@@ -15,8 +15,11 @@ let package = Package(
             targets: ["iPhoneNumberField"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/Intreecom/PhoneNumberKit-Fix-Presentation", branch: "handle-country-code-selection")
+        // Dependencies declare other packages that this package depends on. The specific revision is the latest commit on branch `handle-country-code-selection`
+        .package(
+            url: "https://github.com/Intreecom/PhoneNumberKit-Fix-Presentation",
+            revision: "ee59fe3cd310aa96ce3ae365fc281fba1a6f9adf"
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
