@@ -142,7 +142,7 @@ public struct iPhoneNumberField: UIViewRepresentable {
         self.externalIsFirstResponder = isEditing
         self.formatted = formatted
         self._text = text
-        self._displayedText = State(initialValue: text.wrappedValue)
+        self.displayedText = text.wrappedValue
         self.configuration = configuration
     }
 
